@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>UCITY | Connexion</title>
+    <title>Chrono'Taxi | Connexion</title>
 
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('font-awesome/css/font-awesome.css') }}" rel="stylesheet">
@@ -23,9 +23,9 @@
             <div>
 
                 <h1 class="logo-name">UC</h1>
-
+                <img src="{{ asset('../img/logo-mini.jpg') }}"  alt="logo chrono'taxi"/>
             </div>
-            <h3>Bienvenue sur Ucity</h3>
+            <h3>Bienvenue sur Chrono'Taxi</h3>
             <p>Connectez-vous à votre espace.</p>
             @if($errors->any())
                 <p class="alert alert-danger">{{ $errors->all()[0] }}</p>
@@ -51,7 +51,7 @@
                     </button>
                 </div>
             </form>
-            <p class="m-t"> <small>&copy; LAB2VIEW</small> </p>
+            <p class="m-t"> <small>&copy; INCC</small> </p>
         </div>
     </div>
 
