@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>@yield('title') | UCITY-Dashboard</title>
+    <title>@yield('title') | Chrono'Taxi-Dashboard</title>
 
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('font-awesome/css/font-awesome.css') }}" rel="stylesheet">
@@ -212,7 +212,7 @@
             </div>
             <div class="footer">
                 <div>
-                    <strong>Copyright</strong> UCity &copy; 2019
+                    <strong>Copyright</strong> Chrono'Taxi &copy; 2019
                 </div>
             </div>
 

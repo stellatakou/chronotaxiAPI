@@ -45,10 +45,11 @@ class DriverController extends Controller
                 'longitude' => $driver->longitude
             );
             $distance = floor(Helper::getDistance($request->input("latitude"), $request->input("longitude"), $driverPosition['latitude'], $driverPosition['longitude'])['kilometers']);
-            if($distance <= /*$request->distance ??*/ 150){
+            if($distance <= $request->distance ?? 15){
                 $found_drivers->add($driver);
             }
         }
+        dd($found_drivers);
 
         return response()->json($found_drivers);
     }

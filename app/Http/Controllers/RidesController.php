@@ -61,7 +61,7 @@ class RidesController extends Controller
             $msg = array(
                 "body" => $ride->client->name . " demande " . $ride->type->label . " de " . $ride->from . " à " . $ride->to . " pour " . $ride->price . "XAF",
                 "title" => "Alerte client",
-                "subtitle" => "UCity"
+                "subtitle" => "Chrono'Taxi"
             );
             $fields = array(
                 'registration_ids'  => $found_drivers,
@@ -83,7 +83,7 @@ class RidesController extends Controller
         $msg = array(
             "body" => "finished",
             "title" => $ride->type->label . " terminé.",
-            "subtitle" => "UCity"
+            "subtitle" => "Chrono'Taxi"
         );
 
         $fields = array(
@@ -111,7 +111,7 @@ class RidesController extends Controller
         $msg = array(
             "body" => "Le conducteur " . $ride->driver->name . " vous attend!",
             "title" => "Alerte client",
-            "subtitle" => "UCity"
+            "subtitle" => "Chrono'Taxi"
         );
         $fields = array(
             'to'  => $ride->client->push_token,
@@ -136,7 +136,7 @@ class RidesController extends Controller
         $msg = array(
             "body" => "Nous avons un conducteur pour vous! Il est sur le chemin.",
             "title" => "Alerte client",
-            "subtitle" => "UCity"
+            "subtitle" => "Chrono'Taxi"
         );
         $driver = User::find($request->user()->id);
         $average = $driver->reviews->avg("note");
