@@ -105,11 +105,42 @@ Tous les conducteurs
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Adresse</label>
                         <div class="col-sm-10"><input required type="text" name="address" class="form-control"></div>
                     </div>
-
-
-
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Date de naissance</label>
                         <div class="col-sm-10"><input type="date" required name="birthdate" class="form-control"></div>
+                    </div>
+                    <div class="form-group  row"><label class="col-sm-2 col-form-label">Marque du véhicule</label>
+                        <div class="col-sm-10"><input type="text" required name="carmark" class="form-control"></div>
+                    </div>
+                    <div class="form-group  row"><label class="col-sm-2 col-form-label">Model du véhicule</label>
+                        <div class="col-sm-10"><input type="text" required name="carmodel" class="form-control"></div>
+                    </div>
+                    <div class="form-group  row"><label class="col-sm-2 col-form-label">Type de voiture</label>
+                        <div class="col-sm-10"><input type="text" required name="cartype" class="form-control"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">Default select</label>
+                        <select class="form-control" id="exampleFormControlSelect2">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    <div class="form-group  row"><label class="col-sm-2 col-form-label">Immatriculation</label>
+                        <div class="col-sm-10"><input type="text" required name="registration" class="form-control"></div>
+                    </div>
+                    <div class="form-group  row"><label class="col-sm-2 col-form-label">No de chassis</label>
+                        <div class="col-sm-10"><input type="text" required name="chassinumber" class="form-control"></div>
+                    </div>
+                    <div class="form-group  row"><label class="col-sm-2 col-form-label">Nombre de place</label>
+                        <div class="col-sm-10"><input type="number" required name="place_number" class="form-control"></div>
+                    </div>
+                    <div class="form-group  row"><label class="col-sm-2 col-form-label">Permis de conduire</label>
+                        <div class="col-sm-10"><input type="number" required name="driverlicence" class="form-control"></div>
+                    </div>
+                    <div class="form-group  row"><label class="col-sm-2 col-form-label">Photo de profil</label>
+                        <div class="col-sm-10"><input type="file" src="img_submit.gif" alt="Submit" width="48" height="48"></div>
                     </div>
                 </div>
                 <div class="modal-footer">

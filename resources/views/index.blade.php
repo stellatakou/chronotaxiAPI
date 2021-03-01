@@ -19,11 +19,12 @@
 <body class="gray-bg">
 
     <div class="middle-box text-center loginscreen animated fadeInDown">
+        <br>
+        <br>
+        <br>
         <div>
             <div>
-
-                <h1 class="logo-name">UC</h1>
-                <img src="{{ asset('../img/logo-mini.jpg') }}"  alt="logo chrono'taxi"/>
+              <img src="{{ asset('img/Taxi-Chrono-V3.png') }}"  alt="logo chrono'taxi" style="height: 200px; width: 200px"/>
             </div>
             <h3>Bienvenue sur Chrono'Taxi</h3>
             <p>Connectez-vous à votre espace.</p>
